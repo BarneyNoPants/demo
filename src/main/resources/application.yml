@@ -1,0 +1,20 @@
+server:
+    port: 8008
+
+security:
+  oauth2:
+    client:
+      auto-approve-scopes: '.*'
+      clientId: 0oadhjdmkz4BP5Fux0h7
+      clientSecret: aEoz8_GOa63PmRm3B16ZfVROo8GZLgn37UrsePSS
+      accessTokenUri: https://dev-703172.oktapreview.com/oauth2/ausdhlqylyXroQfKu0h7/v1/token
+      userAuthorizationUri: https://dev-703172.oktapreview.com/oauth2/ausdhlqylyXroQfKu0h7/v1/authorize
+      clientAuthenticationScheme: form
+      scope: openid profile email
+    resource:
+      userInfoUri: https://dev-703172.oktapreview.com/oauth2/ausdhlqylyXroQfKu0h7/v1/userinfo
+
+
+logging:
+  level:
+    org.springframework.security: DEBUG
